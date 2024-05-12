@@ -24,8 +24,6 @@ RUN yarn dist-server
 RUN mv /deemix-gui/dist/deemix-server /deemix-server
 
 
-FROM cr.hotio.dev/hotio/lidarr:pr-plugins-1.4.1.3564
-
 LABEL maintainer="youegraillot"
 
 ENV DEEMIX_SINGLE_USER=true
